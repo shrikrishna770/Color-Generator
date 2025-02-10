@@ -5,7 +5,7 @@ document.getElementById("colorBtn").addEventListener("click", function() {
   let color = `RGB(${r},${g},${b})`;
 
   document.querySelector("h1").innerText = color;
-  document.querySelector(".colorBtn").style.backgroundColor = color;
+  document.querySelector("button").style.backgroundColor = color;
   document.getElementById("colorBox").innerText = "";
   document.getElementById("colorBox").style.backgroundColor = color;
 });
